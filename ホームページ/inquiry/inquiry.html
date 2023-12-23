@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせ</title>
+</head>
+<body>
+<form action="proguram.php" method="post"> 
+    <dl>
+        <dt>お名前<spun class="must">※</spun></dt>
+        <dd>
+        <input type="text" name="name" required placeholder="田中太郎">
+    </dd>
+    <dt>ふりがな<spun class="must">※</spun></dt>
+    <dd>
+        <input type="text" name="kana" required placeholder="たなかたろう"
+    </dd>
+    <dt>性別</dt>
+    <dd>
+        </label><input type="radio" name="sex" value="man">男</label>
+        </label><input type="radio" name="sex" value="woman">女</label>
+    </dd> 
+    <dt>お問い合わせ・ご質問内容</dt> 
+    <dd>
+        <textarea name="comment" cols="20"rows="5"></textarea>
+    </dd>
+    </dl>
+    <p class="submit"><input type="submit" name="submit" value="送信する"</p>
+</form>
+</body>
+</html>
